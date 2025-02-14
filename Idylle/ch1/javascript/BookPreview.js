@@ -5,6 +5,7 @@ class BookPreviewPublic {
   }
 
   setBookConfig(params) {
+    debugger;
     for (var prop in params) {
       bookConfig[prop] = params[prop];
     }
